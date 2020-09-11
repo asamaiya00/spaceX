@@ -7,7 +7,7 @@ import logo from './logo.png';
 import Launches from './components/Launches';
 import Launch from './components/Launch';
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: '/graphql',
 });
 
 function App() {
